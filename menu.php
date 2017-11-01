@@ -11,7 +11,8 @@
         <li><a href="#">Etusivu</a></li>
         <li><a href="eka.php">Array esimerkki</a></li>
         <li><a href="getesim.php">Get esimerkki</a></li>
-        <li><a href="#">Post esimerkki</a></li>
+        <li><a href="postesim.php">Post esimerkki</a></li>
+        <li><a href="luokkaesim.php">Luokka esimerkki</a></li>
       </ul>
     </div>
     <div id="content">
