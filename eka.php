@@ -16,9 +16,21 @@
       array("Etunimi"=>'Liisa',"Sukunimi"=>'Virta'),
       array("Etunimi"=>'Maija',"Sukunimi"=>'Joki')
     );
-    foreach ($nimet as $rivi => $value) {
-      echo $rivi['Etunimi'];
-    }
-     ?>
+    //print_r tulostaa koko taulukon
+    //print_r($nimet);
+    //ensimmäinen Etunimi
+    echo 'Ensimmäinen etunimi on '.$nimet[0]['Etunimi'].'<br>';
+    echo 'Toinen etunimi on '.$nimet[1]['Etunimi'].'<br>';
+    ?>
+    <h2>Koko taulukko</h2>
+    <table border="1">
+      <tr><th>Etunimi</th><th>Sukunimi</th></tr>
+      <tr><td>Aino</td><td>Aho</td></tr>
+      <?php
+      foreach ($nimet as $rivi) {
+        echo '<tr><td>'.$rivi['Etunimi'].'</td><td>'.$rivi['Sukunimi'].'</td></tr>';
+      }
+       ?>
+    </table>
   </body>
 </html>
