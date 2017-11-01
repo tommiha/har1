@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Ekasivu</title>
-  </head>
-  <body>
+<?php include "menu.php"; ?>
     <h1>Assosiatiivinen array</h1>
     <p>Seuraava taulukko on luotu php:llä</p>
 
@@ -32,5 +26,5 @@
       }
        ?>
     </table>
-  </body>
-</html>
+
+<?php include "footer.php" ?>
