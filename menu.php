@@ -14,6 +14,7 @@
         <li><a href="getesim.php">Get esimerkki</a></li>
         <li><a href="postesim.php">Post esimerkki</a></li>
         <li><a href="luokkaesim.php">Luokka esimerkki</a></li>
+        <li><a href="tietokanta.php">Tietokanta esimerkki</a></li>
       </ul>
     </div>
     <div id="content">
